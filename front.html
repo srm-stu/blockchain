@@ -1,0 +1,1039 @@
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>National Level Seminar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto Mono", monospace;
+        background-color: #000000;
+        color: #d4d4d4;
+      }
+      .gradient-text {
+        background: linear-gradient(90deg, #00c9ff, #92fe9d);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      .darkblue-text {
+        color: #00008b;
+      }
+      .nav-item {
+        position: relative;
+      }
+      .nav-item::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background: red;
+        left: 50%;
+        bottom: -4px;
+        transition: width 0.3s ease, left 0.3s ease;
+      }
+      .nav-item:hover::after {
+        width: 100%;
+        left: 0;
+      }
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+      body {
+        font-family: "Roboto", sans-serif;
+      }
+      .glow-gold {
+        background-color: #ffd700;
+        box-shadow: 0 0 20px #ffd700;
+      }
+      .glow-silver {
+        background-color: #c0c0c0;
+        box-shadow: 0 0 20px #c0c0c0;
+      }
+      .glow-bronze {
+        background-color: #cd7f32;
+        box-shadow: 0 0 20px #cd7f32;
+      }
+      .register-btn {
+        background-color: #d4d4d4;
+        color: #000;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+      }
+      .register-btn:hover {
+        background-color: #39ff14;
+        color: #000;
+      }
+      .section {
+        padding-top: 3rem; /* Adjust this value based on your header height */
+        margin-top: -3rem; /* Adjust this value based on your header height */
+      }
+      .hidden-content {
+        display: none;
+    }
+    .custom-box {
+        border-radius: 12px;
+        border: 1px solid #aa80f9;
+        background: #130b30;
+        box-shadow: -8px -8px 32px 12px rgba(170, 128, 249, 0.05), -8px -8px 32px 12px rgba(170, 128, 249, 0.05);
+    }
+    @media (max-width: 768px) {
+      .desktop-nav {
+        display: none;
+      }
+    }
+    .register-btn:hover {
+      background-color: #39ff14;
+      color: #000;
+    }
+    @keyframes blink {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        background-color: rgb(255, 0, 0);
+      }
+    }
+    .register-btn {
+      background-color: #d4d4d4;
+      color: #000;
+      padding: 20px 40px;
+      border-radius: 10px;
+      font-size: 1.5rem;
+      transition: background-color 0.3s, color 0.3s;
+      animation: blink 1s infinite;
+    }
+    .glow-border {
+      border-width: 8px;
+      border-color: yellow;
+      box-shadow: 0 0 20px yellow;
+      animation: glow 1s infinite alternate;
+  }
+  @keyframes glow {
+      from {
+          box-shadow: 0 0 20px yellow;
+      }
+      to {
+          box-shadow: 0 0 40px yellow;
+      }
+  }
+  .blinking {
+    animation: blinkingText 1.2s infinite;
+  }
+  @keyframes blinkingText {
+    0% { color: #ff0000; }
+    49% { color: #ff0000; }
+    60% { color: transparent; }
+    99% { color: transparent; }
+    100% { color: #ff0000; }
+}
+  .background-image {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        opacity: 0.5; /* Adjust the opacity as needed */
+      }
+      .blinking-box {
+        animation: blinki 1s infinite;
+    }
+    @keyframes blinki {
+      0% {
+          box-shadow: 0 0 10px 2px rgba(255, 0, 0, 0.5);
+      }
+      50% {
+          box-shadow: 0 0 20px 4px rgba(255, 0, 0, 1);
+      }
+      100% {
+          box-shadow: 0 0 10px 2px rgba(255, 0, 0, 0.5);
+      }
+  }
+    </style>
+  </head>
+  <body class="bg-black text-white">
+    <header class="py-2 fixed top-0 left-0 w-full bg-black z-50 hidden md:block">
+      <nav
+        class="container mx-auto flex justify-between items-center px-4 md:px-8"
+      >
+        <div class="flex items-center">
+          <img
+            alt="Logo"
+            class="w-70 h-12 mr-2"
+            height="80"
+            src="Screenshot 2024-12-16 at 11.35.49.png"
+            width="200"
+          />
+          
+          
+          
+        </div>
+        <ul class="flex space-x-6 text-sm md:text-base desktop-nav">
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#home"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#aboutus"> About Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#seminar"> Seminar </a>
+          </li>
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#register"> Register </a>
+          </li>
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#themes"> Themes for Project </a>
+          </li>
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#prizes"> Prizes </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="hover:text-green-400" href="#contact"> Contact </a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+    <div class="container mx-auto p-4">
+      
+      
+  </div>
+
+  
+  <a href="https://example.com" class="fixed right-0 top-1/2 transform translate-y-full mt-20 bg-green-500 shadow-lg p-2 rounded-lg w-20">
+    <div class="flex flex-col items-center space-y-2">
+        <div class="flex flex-col items-center bg-green-200 p-2 rounded w-full">
+            <div class="text-sm font-bold text-black">Register</div>
+            <div class="text-sm font-bold text-black">Now</div>
+        </div>
+    </div>
+</a>
+    <main id="home"
+      class="flex flex-col items-center justify-center text-center py-20 px-4 md:px-8"
+    >
+    <div class="mb-20"></div>
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">
+        NATIONAL LEVEL SEMINAR
+        
+      </h1>
+      <p class="text-3xl md:text-5xl mb-8 tracking-widest text-green-400">
+        on Blockchain Technology for IoT
+      </p>
+      <a class="register-btn" href="register.html">
+        Register Now!
+       </a>
+       <div  class="mb-10"></div>
+
+       <h1 class="text-xl md:text-3xl font-bold mb-4">
+        DATE: 29TH JANUARY 2025 TO 30TH JANUARY 2025
+        
+        
+      </h1>
+      <h1 class="text-xl md:text-3xl font-bold mb-4">
+        
+        VENUE: TECH PARK (Room no: 404&405)
+        
+      </h1>
+    </main>
+    <div id="aboutus" class="mb-20"></div>
+    <div  class="mb-20"></div>
+    <div  class="mb-20"></div>
+    <div  class="mb-20"></div>
+    <div  class="mb-20"></div>
+    
+    <div class="container mx-auto px-4 py-8 section">
+      <div class="flex flex-col lg:flex-row items-center">
+        <div class="lg:w-1/2">
+          <h1 class="text-4xl font-bold mb-4">ABOUT US</h1>
+          <p class="mb-4 text-justify">
+            SRM Institute of Science and Technology (SRMIST), Kattankulathur, is a powerhouse of education, innovation, and research, setting benchmarks in academic excellence. With a NIRF overall ranking of 21 and an accreditation of A++ by NAAC we are one of the leading institutions in the country
+.
+          </p>
+          <p class="mb-4 text-justify">
+            Within SRMIST, the School of Computing shines as a leader in
+            technological education, fostering creativity and innovation to meet
+            the demands of a fast-paced digital world.
+          </p>
+          <p class="mb-4 text-justify">
+            At the heart of this school lies the Department of Networking and
+            Communications—a dynamic hub for future-ready technology
+            enthusiasts. Focused on fields like network engineering, wireless
+            communication, cybersecurity, and data communications, the
+            department stays at the forefront of global tech advancements.
+          </p>
+          <div id="moreText" style="display: none">
+            <p class="mb-4 text-justify">
+              With cutting-edge labs, industry-driven curriculum, and expert
+              faculty, we create a vibrant learning environment. Here, students
+              transform into skilled professionals ready to tackle real-world
+              challenges and lead the digital revolution.
+            </p>
+            <p class="mb-4 text-justify">
+              Our mission is simple: Empower. Innovate. Lead. Join us in shaping
+              the future of connectivity and communication technologies. Let’s
+              explore possibilities, break barriers, and build the tech of
+              tomorrow—together!
+            </p>
+          </div>
+          <button
+            class="bg-gray-600 text-white py-2 px-4 rounded-full"
+            id="readMoreBtn"
+            onclick="toggleReadMore()"
+          >
+            Read More
+          </button>
+        </div>
+        <div class="lg:w-1/2 mt-8 lg:mt-0 flex justify-center">
+          <img
+            alt="Your photo"
+            class="rounded-lg shadow-lg"
+            height="300"
+            src="image.png"
+            width="400"
+          />
+        </div>
+      </div>
+    </div>
+    <script>
+      function toggleReadMore() {
+        var moreText = document.getElementById("moreText");
+        var btnText = document.getElementById("readMoreBtn");
+
+        if (moreText.style.display === "none") {
+          moreText.style.display = "block";
+          btnText.innerHTML = "Read Less";
+        } else {
+          moreText.style.display = "none";
+          btnText.innerHTML = "Read More";
+        }
+      }
+    </script> 
+    
+    <div id="seminar" class="mb-20"></div>
+    
+    <div class="container mx-auto px-4 py-8 section ">
+      <div class="text-center mb-8">
+        <h1 class="text-5xl font-bold">ABOUT THE SEMINAR</h1>
+      </div>
+
+      
+
+      <div class="text-center mb-8">
+        <h2 class="text-3xl md:text-4xl lg:text-5xl text-red-600">
+          National Level Seminar on Blockchain Technology for IoT: An
+          Information Security Perspective
+        </h2>
+      </div>
+
+      <div class="mb-12"></div>
+
+      <div class="bg-[#1a1a40] p-6 rounded-lg shadow-lg">
+        <p class="text-lg mb-4 text-justify">
+          The world of Internet of Things (IoT) is rapidly evolving, connecting
+          billions of devices across various industries, from healthcare and
+          transportation to agriculture and smart cities. While IoT promises
+          unprecedented levels of connectivity and automation, it also brings
+          significant security concerns, particularly in terms of device
+          authentication, data integrity, and privacy. Traditional security
+          mechanisms often fall short in IoT environments due to their
+          centralized nature and vulnerability to attacks.
+        </p>
+        <p class="text-lg mb-4 text-justify">
+          Blockchain technology, with its decentralized, immutable, and
+          transparent nature, has emerged as a potential solution to address
+          these challenges. However, IoT systems are not just isolated networks;
+          they are often connected to cloud platforms and rely heavily on
+          communication through complex network infrastructures. Thus, the
+          integration of blockchain with IoT, cloud computing, and network
+          infrastructures offers a comprehensive solution to enhance security,
+          scalability, and trust within IoT ecosystems.
+        </p>
+        <p class="text-lg text-justify">
+          The Two Days National Level Seminar on Blockchain Technology for IoT:
+          An Information Security Perspective will delve into how blockchain can
+          be leveraged to secure IoT networks, cloud infrastructures, and
+          interconnected systems. This seminar will provide a platform to
+          explore how blockchain enhances security in IoT networks, how it can
+          be applied in cloud environments for data integrity and privacy, and
+          how it can solve scalability and interoperability challenges in
+          large-scale IoT systems.
+        </p>
+      </div>
+    </div>
+
+    <div class="fixed right-0 top-1/2 transform -translate-y-1/2 bg-white shadow-lg p-2 rounded-lg w-20 blinking-box">
+      <div class="flex flex-col items-center space-y-2">
+          <div class="flex flex-col items-center bg-gray-200 p-2 rounded w-full">
+              <div class="text-xl font-bold text-red-500" id="days-sidebar">00</div>
+              <div class="text-xs text-black">Days</div>
+          </div>
+          <div class="flex flex-col items-center bg-gray-200 p-2 rounded w-full">
+              <div class="text-xl font-bold text-red-500" id="hours-sidebar">00</div>
+              <div class="text-xs text-black">Hours</div>
+          </div>
+          <div class="flex flex-col items-center bg-gray-200 p-2 rounded w-full">
+              <div class="text-xl font-bold text-red-500" id="minutes-sidebar">00</div>
+              <div class="text-xs text-black">Minutes</div>
+          </div>
+          <div class="flex flex-col items-center bg-gray-200 p-2 rounded w-full">
+              <div class="text-xl font-bold text-red-500" id="seconds-sidebar">00</div>
+              <div class="text-xs text-black">Seconds</div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container mx-auto px-4 py-8">
+      <div class="text-center mb-8">
+          <h1 class="text-5xl font-bold">COUNTDOWN TO THE EVENT</h1>
+      </div>
+      <div id="countdown" class="flex justify-center space-x-4 text-6xl font-bold">
+          <div class="flex flex-col items-center">
+              <div class="bg-white text-purple-700 p-6 border-8 border-yellow-500 rounded-full shadow-lg glow-border flex items-center justify-center">
+                  <div id="days">0</div>
+              </div>
+              <div class="text-2xl mt-2 text-white-900">Days</div>
+          </div>
+          <div class="flex flex-col items-center">
+              <div class="bg-white text-purple-700 p-6 border-8 border-yellow-500 rounded-full shadow-lg glow-border flex items-center justify-center">
+                  <div id="hours">0</div>
+              </div>
+              <div class="text-2xl mt-2 text-white-900">Hours</div>
+          </div>
+          <div class="flex flex-col items-center">
+              <div class="bg-white text-purple-700 p-6 border-8 border-yellow-500 rounded-full shadow-lg glow-border flex items-center justify-center">
+                  <div id="minutes">0</div>
+              </div>
+              <div class="text-2xl mt-2 text-white-900">Minutes</div>
+          </div>
+          <div class="flex flex-col items-center">
+              <div class="bg-white text-purple-700 p-6 border-8 border-yellow-500 rounded-full shadow-lg glow-border flex items-center justify-center">
+                  <div id="seconds">0</div>
+              </div>
+              <div class="text-2xl mt-2 text-white-900">Seconds</div>
+          </div>
+      </div>
+  </div>
+
+  <script>
+      function countdown() {
+          const endDate = new Date("2025-01-29T00:00:00").getTime();
+          const now = new Date().getTime();
+          const timeLeft = endDate - now;
+
+          const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+          document.getElementById("days").innerText = days < 10 ? '0' + days : days;
+          document.getElementById("hours").innerText = hours < 10 ? '0' + hours : hours;
+          document.getElementById("minutes").innerText = minutes < 10 ? '0' + minutes : minutes;
+          document.getElementById("seconds").innerText = seconds < 10 ? '0' + seconds : seconds;
+
+          document.getElementById("days-sidebar").innerText = days < 10 ? '0' + days : days;
+          document.getElementById("hours-sidebar").innerText = hours < 10 ? '0' + hours : hours;
+          document.getElementById("minutes-sidebar").innerText = minutes < 10 ? '0' + minutes : minutes;
+          document.getElementById("seconds-sidebar").innerText = seconds < 10 ? '0' + seconds : seconds;
+
+          if (timeLeft < 0) {
+              clearInterval(timerInterval);
+              document.getElementById("days").innerText = "00";
+              document.getElementById("hours").innerText = "00";
+              document.getElementById("minutes").innerText = "00";
+              document.getElementById("seconds").innerText = "00";
+
+              document.getElementById("days-sidebar").innerText = "00";
+              document.getElementById("hours-sidebar").innerText = "00";
+              document.getElementById("minutes-sidebar").innerText = "00";
+              document.getElementById("seconds-sidebar").innerText = "00";
+          }
+      }
+
+      const timerInterval = setInterval(countdown, 1000);
+  </script>
+    
+    </div>
+
+    
+  
+
+
+    <div class="container mx-auto p-4">
+      <h1 class="text-4xl text-white mb-8">SESSIONS PLANNED</h1>
+      <div class="bg-[#1a1a40] p-6 rounded-lg mb-6">
+        <h2 class="text-green-500 text-2xl mb-4">
+          Day 01: Session and Hands-on
+        </h2>
+        <ul class="list-disc list-inside">
+          <li>Introduction to Blockchain in IoT Security</li>
+          <li>
+            How Security and Privacy are Enabled in Blockchain-based IoT
+            Systems?
+          </li>
+          <li>Interoperability in Blockchain-based IoT Systems</li>
+          <li>IPFS Blockchain in IoT Networks</li>
+          <li>Real World Use Case</li>
+        </ul>
+      </div>
+      <div class="bg-[#1a1a40] p-6 rounded-lg">
+        <h2 class="text-green-500 text-2xl mb-4">Day 02:</h2>
+        <ul class="list-disc list-inside">
+          <li>Project Demo</li>
+          <li>Session on “Blockchain for IoT Data Integrity and Auditing”</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mb-12"></div>
+    <div class="mb-12"></div>
+    <div class="mb-12"></div>
+
+    <div class="container mx-auto p-4">
+      <div class="flex flex-col md:flex-row items-center p-6 mb-6">
+       <div class="md:w-1/2">
+        <h1 class="text-3xl font-bold text-green-500">
+          EVENT BROCHURE
+         </h1>
+         <a class="inline-block mt-4 px-6 py-2 bg-red-500 text-white font-bold rounded hover:bg-green-600" download="event_brochure.pdf" href="National Level Seminar.pdf">
+          Download
+         </a>
+         <div  class="mb-12"></div>
+        <h1 class="text-3xl font-bold text-green-500">
+         VENUE
+        </h1>
+        <p class="text-lg mt-2 text-white-800">
+         TP404 &amp; 405 Smart Class Room,
+         <br/>
+         4th Floor, Techpark.
+        </p>
+        <h1 class="text-3xl font-bold mt-4 text-green-500">
+         DATE
+        </h1>
+        <p class="text-lg mt-2 text-white-800">
+         29TH JANUARY 2025 TO 30TH JANUARY 2025
+        </p>
+       </div>
+       <div class="md:w-1/2 mt-4 md:mt-0 md:ml-4">
+        <img alt="Photo of TP404 &amp; 405 Smart Class Room, 4th Floor, Techpark, showing a modern classroom setup with advanced technological equipment and seating arrangements." height="300" src="image copy 17.png" width="400"/>
+       </div>
+      </div>
+     </div>
+
+
+
+
+
+
+
+
+    <div class="container mx-auto p-4">
+      <h1 class="text-4xl text-white mb-8">SCHEDULE</h1>
+      <div class="bg-[#1a1a40] p-6 rounded-lg mb-6">
+        <h2 class="text-green-500 text-2xl mb-4 ">
+          Detailed Scheduled:
+        </h2>
+        <ul class="list-disc list-inside">
+          <ul>The Detailed Schedule will be revealed very soon!</li> 
+        </ul>
+        <div id="register" class="mb-12"></div> 
+      </div>
+    
+    
+    <div  class="mb-12"></div>
+      
+      
+    <div  class="mb-12"></div>  
+    <div class="container mx-auto p-4">
+      
+      <h1 class="text-4xl text-white mb-8">REGISTRATION FEES</h1>
+      
+      <div class="bg-[#1a1a40] p-6 rounded-lg mb-6">
+        <table class="w-full text-left">
+          <thead>
+            <tr>
+              <th class="border-b-2 border-gray-600 p-2">Registration Type</th>
+              <th class="border-b-2 border-gray-600 p-2">Fee</th>
+              <th class="border-b-2 border-gray-600 p-2">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="border-b border-gray-600 p-2">Participant Registration (PR)</td>
+              <td class="border-b border-gray-600 p-2">Rs. 300</td>
+              <td class="border-b border-gray-600 p-2">Attends two-day seminar and observes project demo</td>
+            </tr>
+            <tr>
+              <td class="border-b border-gray-600 p-2">Contestant Registration (CR)</td>
+              <td class="border-b border-gray-600 p-2">Rs. 300</td>
+              <td class="border-b border-gray-600 p-2">Attends two-day seminar and exhibits their project for demo</td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 class="text-red-500 text-xl font-bold mt-4 blinking">Note:</h2>
+        <p class="text-white mt-2">Lunch and Refreshments: Provided for all registered participants on Day 1 and Day 2.</p>
+      </div>
+      <div class="mb-12"></div>
+      <div class="mb-12"></div>
+      <div class="text-center">
+      <h1>
+      <a class="register-btn" href="register.html">
+        Register Now!
+      </a>
+      </h1>
+      </div>
+    </div>
+    <div id="themes" class="mb-12"></div>
+
+
+    
+    <div class="mb-12"></div>
+    <div  class="container mx-auto p-4">
+      <div class="text-red-500 text-2xl md:text-3xl font-bold mb-4">
+        THEMES FOR STUDENTS PROJECT DEMO:
+      </div>
+      <div class="bg-[#1a1a40] p-6 rounded-lg shadow-md">
+        <ul class="list-disc pl-5 space-y-2">
+          <li>
+            <div class="custom-box p-3 rounded-lg cursor-pointer" onclick="toggleContent(this)">
+                <div class="flex items-center">
+                    <i class="fas fa-chevron-down mr-2"></i>
+                    <h2 class="text-md font-bold">1. Blockchain-Enhanced IoT Network Security: Distributed Threat Detection</h2>
+                </div>
+                <div class="mt-2 text-gray-300 hidden-content">
+                    <table class="w-full">
+                        <tr>
+                            <td class="font-bold text-lg">Project Overview</td>
+                        </tr>
+                        <tr>
+                            <td class="text-sm">- Develop a decentralized network security system using blockchain to securely log and verify potential threats and attacks within an IoT network.</td>
+                        </tr>
+                        <tr>
+                            <td class="font-bold text-lg">Key Features</td>
+                        </tr>
+                        <tr>
+                            <td class="text-sm">- IoT device event monitoring (e.g., intrusion, malfunction, anomalies)</td>
+                        </tr>
+                        <tr>
+                            <td class="text-sm">- Blockchain ledger for secure event logging and auditing</td>
+                        </tr>
+                        <tr>
+                            <td class="text-sm">- Decentralized threat detection and automated responses via smart contracts</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </li>
+
+        <li>
+          <div class="custom-box p-3 rounded-lg cursor-pointer" onclick="toggleContent(this)">
+              <div class="flex items-center">
+                  <i class="fas fa-chevron-down mr-2"></i>
+                  <h2 class="text-md font-bold">2. Blockchain-Based Secure IoT Network Communication Protocol</h2>
+              </div>
+              <div class="mt-2 text-gray-300 hidden-content">
+                  <table class="w-full">
+                      <tr>
+                          <td class="font-bold text-lg">Project Overview</td>
+                      </tr>
+                      <tr>
+                          <td class="text-sm">- Implement a secure communication protocol for IoT networks that uses blockchain to verify the authenticity and integrity of data packets transmitted between IoT devices..</td>
+                      </tr>
+                      <tr>
+                          <td class="font-bold text-lg">Key Features</td>
+                      </tr>
+                      <tr>
+                          <td class="text-sm">- Blockchain-based keys for communication authentication </td>
+                      </tr>
+                      <tr>
+                          <td class="text-sm">- Immutable logs for communication events </td>
+                      </tr>
+                      <tr>
+                          <td class="text-sm">- End-to-end encrypted data transfer across IoT network nodes</td>
+                      </tr>
+                  </table>
+              </div>
+          </div>
+      </li>
+
+      <li>
+        <div class="custom-box p-3 rounded-lg cursor-pointer" onclick="toggleContent(this)">
+            <div class="flex items-center">
+                <i class="fas fa-chevron-down mr-2"></i>
+                <h2 class="text-md font-bold">3. Decentralized Network Management for IoT using Blockchain</h2>
+            </div>
+            <div class="mt-2 text-gray-300 hidden-content">
+                <table class="w-full">
+                    <tr>
+                        <td class="font-bold text-lg">Project Overview</td>
+                    </tr>
+                    <tr>
+                        <td class="text-sm">- Build a decentralized network management platform for IoT devices, where network configurations, access control policies, and performance metrics are managed on a blockchain.</td>
+                    </tr>
+                    <tr>
+                        <td class="font-bold text-lg">Key Features</td>
+                    </tr>
+                    <tr>
+                        <td class="text-sm">- Blockchain for managing device access and network configuration </td>
+                    </tr>
+                    <tr>
+                        <td class="text-sm">- Decentralized monitoring of IoT devices and network health </td>
+                    </tr>
+                    <tr>
+                        <td class="text-sm">- Smart contracts for automating network management tasks</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </li>
+
+    <li>
+      <div class="custom-box p-3 rounded-lg cursor-pointer" onclick="toggleContent(this)">
+          <div class="flex items-center">
+              <i class="fas fa-chevron-down mr-2"></i>
+              <h2 class="text-md font-bold">4. Blockchain-Based IoT Network Access Control System</h2>
+          </div>
+          <div class="mt-2 text-gray-300 hidden-content">
+              <table class="w-full">
+                  <tr>
+                      <td class="font-bold text-lg">Project Overview</td>
+                  </tr>
+                  <tr>
+                      <td class="text-sm">- Create a network access control system using blockchain to manage and validate access requests to an IoT network, ensuring only authorized devices can connect.</td>
+                  </tr>
+                  <tr>
+                      <td class="font-bold text-lg">Key Features</td>
+                  </tr>
+                  <tr>
+                      <td class="text-sm">- Blockchain for device identity and authentication management </td>
+                  </tr>
+                  <tr>
+                      <td class="text-sm">- Real-time access control via smart contracts </td>
+                  </tr>
+                  <tr>
+                      <td class="text-sm">- Immutable logs of access requests and decisions</td>
+                  </tr>
+              </table>
+          </div>
+      </div>
+  </li>
+
+  <li>
+    <div class="custom-box p-3 rounded-lg cursor-pointer" onclick="toggleContent(this)">
+        <div class="flex items-center">
+            <i class="fas fa-chevron-down mr-2"></i>
+            <h2 class="text-md font-bold">5. IoT Network Privacy and Data Protection Using Blockchain</h2>
+        </div>
+        <div class="mt-2 text-gray-300 hidden-content">
+            <table class="w-full">
+                <tr>
+                    <td class="font-bold text-lg">Project Overview</td>
+                </tr>
+                <tr>
+                    <td class="text-sm">- Implement a privacy management system for IoT networks, where sensitive data is encrypted and stored on the blockchain, allowing users to control who accesses their data.</td>
+                </tr>
+                <tr>
+                    <td class="font-bold text-lg">Key Features</td>
+                </tr>
+                <tr>
+                    <td class="text-sm">- Blockchain-based data encryption and privacy management </td>
+                </tr>
+                <tr>
+                    <td class="text-sm">- User-controlled access to sensitive data </td>
+                </tr>
+                <tr>
+                    <td class="text-sm">- Transparent audit trails for data usage and sharing</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</li>
+
+<li>
+  <div class="custom-box p-3 rounded-lg cursor-pointer" onclick="toggleContent(this)">
+      <div class="flex items-center">
+          <i class="fas fa-chevron-down mr-2"></i>
+          <h2 class="text-md font-bold">6. Blockchain-Enabled IoT Network Scalability and Efficiency</h2>
+      </div>
+      <div class="mt-2 text-gray-300 hidden-content">
+          <table class="w-full">
+              <tr>
+                  <td class="font-bold text-lg">Project Overview</td>
+              </tr>
+              <tr>
+                  <td class="text-sm">- Showcase how blockchain can optimize IoT network scalability by enabling decentralized decision-making for routing and </td>
+              </tr>
+              <tr>
+                  <td class="font-bold text-lg">Key Features</td>
+              </tr>
+              <tr>
+                  <td class="text-sm">- Distributed ledger for network load balancing </td>
+              </tr>
+              <tr>
+                  <td class="text-sm">- Smart contract-based routing and traffic management </td>
+              </tr>
+              <tr>
+                  <td class="text-sm">- Decentralized coordination of IoT devices for optimized bandwidth and resource usage</td>
+              </tr>
+          </table>
+      </div>
+  </div>
+</li>
+
+        </ul>
+      </div>
+    </div>
+    <script>
+      function toggleContent(element) {
+          const content = element.querySelector('.hidden-content');
+          const icon = element.querySelector('i');
+          if (content.style.display === "none" || content.style.display === "") {
+              content.style.display = "block";
+              icon.classList.remove('fa-chevron-down');
+              icon.classList.add('fa-chevron-up');
+          } else {
+              content.style.display = "none";
+              icon.classList.remove('fa-chevron-up');
+              icon.classList.add('fa-chevron-down');
+          }
+      }
+    </script>
+
+    <div class="container mx-auto py-12 max-w-screen-lg">
+      <h1 class="text-5xl font-bold text-center mb-12">
+       GUEST SPEAKERS
+      </h1>
+      <div class="flex flex-wrap justify-center items-center gap-12">
+       <!-- Speaker 1 -->
+       <div class="text-center w-64">
+        <img alt="Portrait of Aswini Priyanka Rajendran, Founder &amp; CEO of ASSR Emphorium, smiling and wearing a professional outfit." class="rounded-full border-4 border-purple-400 w-48 h-48 mx-auto mb-4 object-cover" height="200" src="Screenshot 2024-12-14 at 11.31.10.png" width="200"/>
+        <h2 class="text-xl font-bold">
+         Ms. ASWINI PRIYANKA RAJENDRAN
+        </h2>
+        <p class="text-purple-400">
+         Founder &amp; CEO - ASSR Emphorium
+        </p>
+       </div>
+       <!-- Speaker 2 -->
+       <div class="text-center w-64 flex flex-col items-center">
+        <img alt="Portrait of Balachander S, Assistant Professor at DSBS, SRMIST- KTR Campus, wearing glasses and a formal shirt." class="rounded-full border-4 border-purple-400 w-48 h-48 mb-4 object-cover" height="200" src="image copy 3.png" width="200"/>
+        <h2 class="text-xl font-bold">
+         Mr. MUKUNDAN ATM
+        </h2>
+        <p class="text-purple-400">
+         Senior Vice President
+        </p>
+        <p class="text-purple-400">
+         Global Head of Product &amp; Platform Volante Technologies
+        </p>
+       </div>
+       <!-- Speaker 3 -->
+       <div class="text-center w-64">
+        <img alt="Portrait of Mukundan ATM, Senior Vice President and Global Head of Product &amp; Platform at Volante Technologies, wearing a suit and tie." class="rounded-full border-4 border-purple-400 w-48 h-48 mx-auto mb-4 object-cover" height="200" src="Screenshot 2024-12-14 at 11.35.48.png" width="200"/>
+        <h2 class="text-xl font-bold">
+         Mr. BALACHANDER S
+        </h2>
+        <p class="text-purple-400">
+         Assistant Professor
+        </p>
+        <p class="text-purple-400">
+         Department of DSBS
+        </p>
+        <p class="text-purple-400">
+         SRMIST, Kattankulathur
+        </p>
+       </div>
+      </div>
+     </div>
+     <!-- Judges Section -->
+     <div class="container mx-auto py-12 max-w-screen-lg">
+      <h1 class="text-5xl font-bold text-center mb-12">
+       EXPERT REVIEWERS
+      </h1>
+      <div class="flex flex-wrap justify-center items-center gap-12">
+       <!-- Judge 1 -->
+       <div class="text-center w-64">
+        <img alt="Portrait of Mukundan ATM, Senior Vice President and Global Head of Product &amp; Platform at Volante Technologies, wearing a suit and tie." class="rounded-full border-4 border-purple-400 w-48 h-48 mx-auto mb-4 object-cover" height="200" src="image copy 3.png" width="200"/>
+        <h2 class="text-xl font-bold">
+         Mr. MUKUNDAN ATM
+        </h2>
+        <p class="text-purple-400">
+         Senior Vice President
+        </p>
+        <p class="text-purple-400">
+         Global Head of Product &amp; Platform Volante Technologies
+        </p>
+       </div>
+       <!-- Judge 2 -->
+       <div class="text-center w-64">
+        <img alt="Portrait of Dr. S. Ganesh Kumar, Professor at the Department of DSBS, SRMIST, Kattankulathur, wearing a formal shirt and tie." class="rounded-full border-4 border-purple-400 w-48 h-48 mx-auto mb-4 object-cover" height="200" src="image copy 6.png" width="200"/>
+        <h2 class="text-xl font-bold">
+         Dr. S. GANESH KUMAR
+        </h2>
+        <p class="text-purple-400">
+         Professor
+        </p>
+        <p class="text-purple-400">
+         Department of DSBS
+        </p>
+        <p class="text-purple-400">
+         SRMIST, Kattankulathur
+        </p>
+       </div>
+       <!-- Judge 3 -->
+       <div class="text-center w-64">
+        <img alt="Portrait of Dr. A. Suresh, Associate Professor at the Department of NWC, SRMIST, Kattankulathur, wearing a formal suit." class="rounded-full border-4 border-purple-400 w-48 h-48 mx-auto mb-4 object-cover" height="200" src="image copy 5.png" width="200"/>
+        <h2 class="text-xl font-bold">
+         Dr. A. SURESH
+        </h2>
+        <p class="text-purple-400">
+         Associate Professor
+        </p>
+        <p class="text-purple-400">
+         Department of NWC
+        </p>
+        <p class="text-purple-400">
+         SRMIST, Kattankulathur
+        </p>
+       </div>
+      </div>
+     </div>
+
+     <div id="prizes" class="mb-12"></div>
+    
+
+    <!-- Add the new section here -->
+    <div  class="container mx-auto px-4 py-8">
+      <h1 class="text-5xl font-bold text-center mb-12">
+        PRIZES
+       </h1>
+      <h1
+        class="text-2xl md:text-4xl font-bold mb-8 text-center text-yellow-500"
+      >
+        🏆 EXCITING BOUNTIES AWAIT! 🏆
+      </h1>
+      <div
+        class="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8"
+      >
+        <div class="flex-1 flex justify-center">
+          <img
+            alt="Illustration of people celebrating with a trophy and stars"
+            class="w-full max-w-md"
+            height="400"
+            src="image copy 7.png"
+            width="600"
+          />
+        </div>
+        <div class="flex-1 space-y-4">
+          <div class="glow-gold text-black rounded-full px-6 py-4 text-center">
+            1st prize – Rs.10000
+          </div>
+          <div
+            class="glow-silver text-black rounded-full px-6 py-4 text-center"
+          >
+            2nd prize – Rs.5000
+          </div>
+          <div
+            class="glow-bronze text-black rounded-full px-6 py-4 text-center"
+          >
+            3rd prize – Rs.2500
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mx-auto py-12">
+      <h1 class="text-center text-4xl font-bold text-purple-500 mb-12">CONVENORS</h1>
+      <div class="flex flex-wrap justify-center items-center gap-12">
+        <div class="relative bg-purple-900 p-4 rounded-lg w-56">
+          
+          <h2 class="text-lg font-semibold">Dr.B.BALAKIRUTHIGA</h2>
+          <p class="text-gray-400">Assistant Professor</p>
+          <p class="text-gray-400">Department of NWC</p>
+          <p class="text-gray-400">SRMIST, Kattankulathur</p>
+        </div>
+        <div class="relative bg-purple-900 p-4 rounded-lg w-56">
+          
+          <h2 class="text-lg font-semibold">Dr.S.A.ANGAYARKANNI</h2>
+          <p class="text-gray-400">Assistant Professor</p>
+          <p class="text-gray-400">Department of NWC</p>
+          <p class="text-gray-400">SRMIST, Kattankulathur</p>
+        </div>
+        <div class="relative bg-purple-900 p-4 rounded-lg w-56">
+          
+          <h2 class="text-lg font-semibold">Dr.V.RAJARAM</h2>
+          <p class="text-gray-400">Associate Professor</p>
+          <p class="text-gray-400">Department of NWC</p>
+          <p class="text-gray-400">SRMIST, Kattankulathur</p>
+        </div>
+      </div>
+    </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+      <div id="core" class="container mx-auto py-12">
+        <h1 class="text-center text-4xl font-bold text-purple-500 mb-12">
+         CORE TEAM
+        </h1>
+        <div class="flex flex-wrap justify-center gap-8 mb-12">
+          <div class="relative bg-purple-900 p-4 rounded-lg w-56">
+            <h2 class="text-lg font-semibold text-white">
+              B.SESHASAYEE
+             </h2>
+           <p class="text-gray-400">
+            Overall Coordinator
+           </p>
+          </div>
+          <div class="relative bg-purple-900 p-4 rounded-lg w-56">
+           
+           <h2 class="text-lg font-semibold text-white">
+            SANKAR.M
+           </h2>
+           <p class="text-gray-400">
+            Overall Coordinator
+           </p>
+          </div>
+          <div class="relative bg-purple-900 p-4 rounded-lg w-56">
+           
+           <h2 class="text-lg font-semibold text-white">
+            SANJANA.K
+           </h2>
+           <p class="text-gray-400">
+            Overall Coordinator
+           </p>
+          </div>
+        </div>
+        <div id="contact" class="container mx-auto py-12"></div>
+        <h1 class="text-5xl font-bold text-center mb-12">
+          CONTACT
+         </h1>
+         <div class="bg-[#1a1a40] p-6 rounded-lg">
+          
+          <ul class="list-disc list-inside">
+            <ul>Dr. V.Rajaram</ul>
+            <ul>Associate Professor,</ul>
+            <ul>Networking and Communications, SRMIST.</ul>
+            <ul>Mob: 9840431173 | E-Mail: rajaramv@srmist.edu.in</ul>
+          </ul>
+        </div>
+
+  </body>
+</html>
